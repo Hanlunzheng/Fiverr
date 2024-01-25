@@ -1,0 +1,72 @@
+.add {
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 1200px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+    h1 {
+      color: gray;
+      font-weight: 300;
+      font-size: x-larger;
+    }
+
+    .section {
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+
+      .left {
+        flex: 1;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        label {
+          color: gray;
+          font-size: 18px;
+        }
+        button {
+          border: none;
+          padding: 20px;
+          color: white;
+          font-weight: 500;
+          font-size: 18px;
+          background-color: #1dbf73;
+          cursor: pointer;
+        }
+        input,
+        textarea {
+          padding: 20px;
+        }
+        select {
+          padding: 20px;
+        }
+      }
+      .right {
+        flex: 1;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        label {
+          color: gray;
+          font-size: 18px;
+        }
+        textarea {
+          padding: 20px;
+        }
+        input,
+        select,
+        textarea {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
