@@ -182,3 +182,14 @@ export const gigs = [
     username: "Wilton Hunt",
   },
 ];
+
+
+
+ // {
+  //   "start": "react-scripts start",
+  //   "predeploy": "npm run build",
+  //   "deploy": "gh-pages -d build",
+  //   "dev": "vite",
+  //   "build": "vite build",
+  //   "preview": "vite preview"
+  // },
